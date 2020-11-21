@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "Ismael Trentin",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaelTrentin/djs-commands.git"
+  },
   "files": [
     "lib/**/*",
     "README.MD"
