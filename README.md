@@ -158,4 +158,22 @@ import { Say } from "./Say";
 new Say("Hello everybody!").call();
 ```
 
+---
+
+## Using it with `discord.js`
+
+In the message event the command can be identified by its descriptor.
+
+```typescript
+// Assuming input validation and arguments extraction is already done.
+switch(command){
+  case HelloWorld.descriptor.name:
+    new HelloWorld().call();
+    break;
+  case Say.descriptor.name:
+    new Say(args[0]).call();
+    break;
+}
+```
+
 Happy bot making!
