@@ -61,7 +61,7 @@ The next step is to create the category enum.
 ```typescript
 export enum CommandCategory {
   GENERAL,
-  ADMIN,
+  ADMIN
 }
 ```
 
@@ -75,7 +75,7 @@ export class HelloWorld extends Command {
   public static descriptor: ICommandDescriptor<CommandCategory> = {
     name: "helloWorld",
     category: CommandCategory.GENERAL,
-    description: "Say hi!",
+    description: "Say hi!"
   };
 }
 ```
@@ -131,15 +131,15 @@ export class Say extends Command {
       {
         name: "msg",
         type: "string",
-        mandatory: true,
-      },
-    ],
+        mandatory: true
+      }
+    ]
   };
 }
 ```
 
 Since the `descriptor` says that the command has a parameter, a parameter must be accepted by the command.
-The parameters are passed in the `constructor`, they are __not__ passed in the `call` property beacause
+The parameters are passed in the `constructor`, they are **not** passed in the `call` property beacause
 the intellisense can have problem showing them.
 
 ```typescript
