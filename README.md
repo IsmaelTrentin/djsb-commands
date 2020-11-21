@@ -28,7 +28,7 @@ Offers a structure for easly managing commands when making a Discord bot.
 
 - `T`: the type that defines the command category, for example an `Enum`.
 - `name`: the name of the command.
-- `category`: the type that defines the command category, for example an `Enum`.
+- `category`: defines the command category.
 - `description?`: the description of the command.
 - `parameters?`: all the parameters the command accepts.
 
