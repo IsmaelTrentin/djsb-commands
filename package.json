@@ -1,5 +1,5 @@
 {
-  "name": "djs-commands",
+  "name": "djsb-commands",
   "version": "1.0.0",
   "description": "Fast and easy command structure for discord bots.",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IsmaelTrentin/djs-commands.git"
+    "url": "git+https://github.com/IsmaelTrentin/djsb-commands.git"
   },
   "files": [
     "lib/**/*",
