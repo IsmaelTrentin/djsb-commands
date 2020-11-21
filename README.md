@@ -139,7 +139,7 @@ export class Say extends Command {
 ```
 
 Since the `descriptor` says that the command has a parameter, a parameter must be accepted by the command.
-The parameters are passed in the `constructor`, they are _not_ passed in the `call` property beacause
+The parameters are passed in the `constructor`, they are __not__ passed in the `call` property beacause
 the intellisense can have problem showing them.
 
 ```typescript
