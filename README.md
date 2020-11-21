@@ -26,6 +26,7 @@ Offers a structure for easly managing commands when making a Discord bot.
 | `description?` | `string`                   |
 | `parameters?`  | `Array<ICommandParameter>` |
 
+- `T`: the type that defines the command category, for example an `Enum`.
 - `name`: the name of the command.
 - `category`: the type that defines the command category, for example an `Enum`.
 - `description?`: the description of the command.
@@ -166,7 +167,7 @@ In the message event the command can be identified by its descriptor.
 
 ```typescript
 // Assuming input validation and arguments extraction is already done.
-switch(command){
+switch (command) {
   case HelloWorld.descriptor.name:
     new HelloWorld().call();
     break;
