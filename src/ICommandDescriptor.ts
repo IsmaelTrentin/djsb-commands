@@ -20,7 +20,7 @@ export default interface ICommandDescriptor<T> {
    * The command category object.
    * Suggested: Enum.
    */
-  readonly category: T;
+  category: T;
 
   /**
    * The command description.
