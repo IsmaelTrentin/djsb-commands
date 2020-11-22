@@ -11,3 +11,7 @@
 ## [1.0.2]
 
 - Fixed broken exports
+
+## [1.0.3]
+
+- Fixed broken exports
