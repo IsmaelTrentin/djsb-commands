@@ -15,3 +15,7 @@
 ## [1.0.3]
 
 - Fixed broken exports
+
+## [1.0.4]
+
+- Added vscode extension download link to README.md
