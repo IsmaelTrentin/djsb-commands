@@ -30,9 +30,8 @@ export class Command {
    */
   constructor(func: Function, description?: string) {
     if (Command.descriptor.name.trim() === ''
-      || Command.descriptor.name == ''
-      || Command.descriptor.name.charAt(0).match(/[0-9]/)) {
-      throw 'Invalid command name, must begin with letter.';
+      || Command.descriptor.name === '') {
+      throw 'Invalid command name.';
     }
     this.call = func;
     if (description) {
