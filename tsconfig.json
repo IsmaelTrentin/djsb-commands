@@ -4,6 +4,8 @@
     "module": "commonjs",
     "lib": ["es6", "ES2015"],
     "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
     "outDir": "lib",
     "rootDir": "src",
     "strict": true,
@@ -16,6 +18,6 @@
     "noImplicitThis": true,
     "pretty": true
   },
-  "include": ["src", "src/index.ts"],
+  "include": ["src"],
   "exclude": ["lib", "node_modules", "**/__tests__/*"]
 }
