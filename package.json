@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Fast and easy command structure for discord bots.",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "lib",
   "scripts": {
     "s": "ts-node ./src/index.ts",
     "build": "tsc -p ."
   },
-  "keywords": [],
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord bot",
+    "commands"
+  ],
   "author": "Ismael Trentin",
   "license": "ISC",
   "repository": {
