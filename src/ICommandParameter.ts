@@ -4,7 +4,7 @@
  * @author Ismael Trentin
  * @version 1.0.0
  */
-export default interface ICommandParameter {
+export interface ICommandParameter {
 
   /**
    * The name of the parameter.

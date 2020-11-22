@@ -1,4 +1,4 @@
-import ICommandDescriptor from './ICommandDescriptor';
+import { ICommandDescriptor } from './ICommandDescriptor';
 
 /**
  * A runnable command.

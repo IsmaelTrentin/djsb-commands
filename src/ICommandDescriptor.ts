@@ -1,4 +1,4 @@
-import ICommandParameter from './ICommandParameter';
+import { ICommandParameter } from './ICommandParameter';
 
 /**
  * Describes a command.
@@ -9,7 +9,7 @@ import ICommandParameter from './ICommandParameter';
  * @author Ismael Trentin
  * @version 1.0.0
  */
-export default interface ICommandDescriptor<T> {
+export interface ICommandDescriptor<T> {
 
   /**
    * The command name.
