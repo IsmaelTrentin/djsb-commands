@@ -1,6 +1,6 @@
 {
   "name": "djsb-commands",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast and easy command structure for discord bots.",
   "main": "lib/index.js",
   "types": "lib",
