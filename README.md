@@ -80,7 +80,7 @@ export class HelloWorld extends Command {
 }
 ```
 
-Now that the command is correctly described, it's functionality can be overriden.
+Now that the command is correctly described, it's functionality can be overridden.
 
 ```typescript
 constructor() {
