@@ -1,6 +1,8 @@
 # djsb-commands
 
 Offers a structure for easly managing commands when making a Discord bot.
+Since writing this code over and over can be boring, I have created a vscode snippets extension
+to work faster. You can download it [here](https://mega.nz/folder/SgBx2SoJ#-n-FKh5YMD9UGZ7-Ot12nw "djsb-commands-snippets").
 
 ---
 
@@ -61,7 +63,7 @@ The next step is to create the category enum.
 ```typescript
 export enum CommandCategory {
   GENERAL,
-  ADMIN
+  ADMIN,
 }
 ```
 
@@ -75,7 +77,7 @@ export class HelloWorld extends Command {
   public static descriptor: ICommandDescriptor<CommandCategory> = {
     name: "helloWorld",
     category: CommandCategory.GENERAL,
-    description: "Say hi!"
+    description: "Say hi!",
   };
 }
 ```
@@ -131,9 +133,9 @@ export class Say extends Command {
       {
         name: "msg",
         type: "string",
-        mandatory: true
-      }
-    ]
+        mandatory: true,
+      },
+    ],
   };
 }
 ```
